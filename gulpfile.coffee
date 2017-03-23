@@ -3,6 +3,10 @@ plumber = require 'gulp-plumber'
 sass = require 'gulp-sass'
 pug = require 'gulp-pug'
 coffee = require 'gulp-coffee'
+source = require 'vinyl-source-stream'
+browserify = require 'browserify'
+buffer = require 'vinyl-buffer'
+uglify = require 'gulp-uglify'
 
 gulp.task 'sass', ->
   gulp.src './src/sass/*.scss'
@@ -11,10 +15,16 @@ gulp.task 'sass', ->
     .pipe gulp.dest './bin/css'
 
 gulp.task 'coffee', ->
-  gulp.src './src/coffee/*.coffee'
-    .pipe plumber()
-    .pipe coffee()
-    .pipe gulp.dest './bin/js'
+  browserify
+      entries: ['./src/coffee/index.coffee']
+      extensions: ['.coffee', '.js']
+      debug: true
+    .transform 'coffeeify'
+    .bundle()
+    .pipe source 'main.js'
+    .pipe buffer()
+    .pipe uglify()
+    .pipe gulp.dest 'bin/js'
 
 gulp.task 'pug', ->
   gulp.src './src/pug/*.pug'
