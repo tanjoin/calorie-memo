@@ -9,10 +9,8 @@ window.onload = ->
   if resultDiv?
     data.getData (data) ->
       calorieData = data
-      resultDiv.appendChild view.makeSpacer()
       for d in calorieData
         resultDiv.appendChild view.makeHtml d
-      resultDiv.appendChild view.makeSpacer()
       return
 
   input = document.getElementById 'search-input'
@@ -38,9 +36,6 @@ didSearchInputTextChanged = ->
     list = calorieData.filter (element, index, array) ->
       return element.name.indexOf(input.value) isnt -1 or
         element.company.indexOf(input.value) isnt -1
-
-  resultDiv.appendChild view.makeSpacer()
-
   for d in list
     resultDiv.appendChild view.makeHtml d
-  resultDiv.appendChild view.makeSpacer()
+  return
