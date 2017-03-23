@@ -1,0 +1,65 @@
+{
+  "templates": [
+    {
+      "id": 1,
+      "company": "サントリーフーズ株式会社",
+      "name": "南アルプスの天然水",
+      "energy": {
+        "value": 0,
+        "unit": "kcal"
+      },
+      "volume": {
+        "value": 550,
+        "unit": "ml"
+      },
+      "protein": {
+        "value": 0,
+        "unit": "g"
+      },
+      "fat": {
+        "value": 0,
+        "unit": "g"
+      },
+      "carbohydrate": {
+        "value": 0,
+        "unit": "g"
+      },
+      "na": {
+        "value": {
+          "max": 1.0,
+          "min": 0.4
+        },
+        "unit": "mg"
+      },
+      "salt": {
+        "value": 0,
+        "unit": "g"
+      },
+      "ca": {
+        "value": {
+          "max": 1.5,
+          "min": 0.6
+        },
+        "unit": "mg"
+      },
+      "mg": {
+        "value": {
+          "min": 0.1,
+          "max": 0.3
+        },
+        "unit": "mg"
+      },
+      "k": {
+        "value": {
+          "min": 0.1,
+          "max": 0.5
+        },
+        "unit": "mg"
+      },
+      "per": {
+        "value": 100,
+        "unit": "ml"
+      }
+    }
+  ]
+}
