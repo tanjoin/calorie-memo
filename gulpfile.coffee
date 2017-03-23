@@ -23,7 +23,7 @@ gulp.task 'coffee', ->
     .bundle()
     .pipe source 'main.js'
     .pipe buffer()
-    .pipe uglify()
+#    .pipe uglify()
     .pipe gulp.dest 'bin/js'
 
 gulp.task 'pug', ->

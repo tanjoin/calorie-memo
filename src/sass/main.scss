@@ -1,6 +1,4 @@
 .card-event.mdl-card {
-  width: 256px;
-  height: 256px;
   background: #f9945c;
 }
 
@@ -30,4 +28,10 @@
 .card-event > .mdl-card__actions,
 .card-event > .mdl-card__actions > .mdl-button {
   color: #000;
+}
+
+#result-create {
+  margin: 20px;
+  padding: 50px;
+  background-color: #dddddd
 }

@@ -1,0 +1,61 @@
+extends ./template/header
+
+block contents
+  div#contents-create
+  div#result-create.clipboard(data-clipboard-target="#result-create")
+  //
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          label#id-label.mdl-textfield__label(for="service") ID
+      div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          input#name-input.mdl-textfield__input(type="text")
+          label.mdl-textfield__label(for="service") 商品名
+      div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          input#company-input.mdl-textfield__input(type="text")
+          label.mdl-textfield__label(for="service") 会社名
+      div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          input#energy-input.mdl-textfield__input(type="text")
+          label.mdl-textfield__label(for="service") カロリー
+      div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          input#protein-input.mdl-textfield__input(type="text")
+          label.mdl-textfield__label(for="service") たんぱく質
+      div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          input#fat-input.mdl-textfield__input(type="text")
+          label.mdl-textfield__label(for="service") 脂質
+      div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-cell.mdl-cell--4-col
+        div.mdl-textfield.mdl-js-textfield
+          input#na-input.mdl-textfield__input(type="text")
+          label.mdl-textfield__label(for="service") Na
+      div.mdl-cell.mdl-cell--4-col
+        label.mdl-radio.mdl-js-radio.mdl-js-ripple-effect(for="na-unit-1")
+          input#na-unit-1.mdl-radio__button(type="radio" name="na-unit" value="1" checked)
+          span.mdl-radio__label mg
+        div.mdl-layout-spacer
+        label.mdl-radio.mdl-js-radio.mdl-js-ripple-effect(for="na-unit-2")
+          input#na-unit-2.mdl-radio__button(type="radio" name="na-unit" value="2")
+          span.mdl-radio__label g
+      div.mdl-layout-spacer
+    div.mdl-layout-spacer
+    div.mdl-grid
+      div.mdl-layout-spacer
+      div.mdl-cell.mdl-cell--2-col
+        button#create-button. 作成
+      div.mdl-layout-spacer

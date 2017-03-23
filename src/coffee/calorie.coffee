@@ -4,8 +4,9 @@ exports.convertToSalt = (sodium) ->
 exports.convertToSodium = (salt) ->
   return salt / 2.54 * 1000
 
-exports.getDetails = (content) ->
-  details = "#{toString(content.energy)}\n" if content.energy?
+exports.getDetails = (content, isShowEnergy = true, isShowVolume = true) ->
+  details = ""
+  details += "#{toString(content.energy)}\n" if content.energy? and isShowEnergy
   details += "たんぱく質 #{toString(content.protein)}\n" if content.protein?
   details += "脂質 #{toString(content.fat)}\n" if content.fat?
   details += "炭水化物 #{toString(content.carbohydrate)}\n" if content.carbohydrate?
@@ -14,6 +15,7 @@ exports.getDetails = (content) ->
   details += "Ca #{toString(content.ca)}\n" if content.ca?
   details += "Mg #{toString(content.mg)}\n" if content.mg?
   details += "K #{toString(content.k)}\n" if content.k?
+  details += "内容量 #{toString(content.volume)}\n" if content.volume? and isShowVolume
   details += "#{toString(content.per)}あたり\n" if content.per?
   return details
 
@@ -23,3 +25,5 @@ toString = (item) ->
   else if typeof item.value is 'object' and item.value.max? and item.value.min?
     return "#{item.value.min}〜#{item.value.max}#{item.unit}"
   return ""
+
+exports.toString = toString

@@ -3,13 +3,13 @@ calorie = require('./calorie')
 exports.makeUrl = (content) ->
   unless content?
     return ""
+
+  date = getUTC(new Date())
+
   return "https://www.google.com/calendar/event?action=TEMPLATE" +
-  "&text=" + getText(content) +
-  "&details=" + getDetails(content) +
-  "&dates=" + getUTC(new Date()) +
-  "&trp=false" +
-  "&sprop=" + getDataUrl(content) +
-  "&sprop=" + 'name:' + encodeURIComponent('calorie-memo')
+    "&text=#{getText(content)}" +
+    "&details=#{getDetails(content)}" +
+    "&dates=#{date}/#{date}"
 
 getUTC = (date) ->
   return date.getUTCFullYear() +
@@ -25,10 +25,12 @@ zerofill = (num) ->
   return ('0' + num).slice(-2)
 
 getText = (content) ->
-  return encodeURIComponent("#{content.name} [#{content.company}]")
+  return encodeURIComponent(
+    "#{content.name} #{calorie.toString(content.energy)}"
+  )
 
 getDetails = (content) ->
-  return encodeURIComponent calorie.getDetails content
+  return encodeURIComponent calorie.getDetails content, false
 
 getDataUrl = (content) ->
   url = 'https://tanjoin.github.io/calorie-memo?id='
