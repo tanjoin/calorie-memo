@@ -1,6 +1,40 @@
 {
   "templates": [
     {
+      "id": 11,
+      "name": "お～いお茶 緑茶",
+      "company": "株式会社 伊藤園",
+      "company_address": "東京都渋谷区本町3-47-10",
+      "company_tel": "0800-100-1100",
+      "url": "http://itoen-hinkan.co.jp",
+      "jan": "4901085003800",
+      "volume": { "value": 525, "unit": "ml" },
+      "per": { "value": 100, "unit": "ml" },
+      "energy": { "value": 0, "unit": "kcal" },
+      "protein": { "value": 0, "unit": "g" },
+      "fat": { "value": 0, "unit": "g" },
+      "carbohydrate": { "value": 0, "unit": "g" },
+      "salt": { "value": 0.03, "unit": "g" },
+      "catechin": { "value": 40, "unit": "mg" }
+    },
+    {
+      "id": 10,
+      "name": "お～いお茶 濃い茶",
+      "company": "株式会社 伊藤園",
+      "company_address": "東京都渋谷区本町3-47-10",
+      "company_tel": "0800-100-1100",
+      "url": "http://itoen-hinkan.jp",
+      "jan": "4901085002605",
+      "volume": { "value": 525, "unit": "ml" },
+      "per": { "value": 100, "unit": "ml" },
+      "energy": { "value": 0, "unit": "kcal" },
+      "protein": { "value": 0, "unit": "g" },
+      "fat": { "value": 0, "unit": "g" },
+      "carbohydrate": { "value": 0, "unit": "g" },
+      "salt": { "value": 0.02, "unit": "g" },
+      "catechin": { "value": 80, "unit": "mg" }
+    },
+    {
       "id": 9,
       "name": "Volvic",
       "company": "キリンビバレッジ株式会社",
