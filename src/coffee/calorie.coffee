@@ -4,6 +4,9 @@ exports.convertToSalt = (sodium) ->
 exports.convertToSodium = (salt) ->
   return salt / 2.54 * 1000
 
+exports.calcCarbohydrate = (saccharide, dietary_fiber) ->
+  return saccharide + dietary_fiber
+
 exports.getDetails = (content, isShowEnergy = true, isShowVolume = true) ->
   details = ""
   details += "#{toString(content.energy)}\n" if content.energy? and isShowEnergy

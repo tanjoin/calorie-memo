@@ -1,6 +1,96 @@
 {
   "templates": [
     {
+      "id": 9,
+      "name": "Volvic",
+      "company": "キリンビバレッジ株式会社",
+      "company_address": "東京都千代田区神田和泉町1番地",
+      "volume": { "value": 500, "unit": "ml" },
+      "per": { "value": 100, "unit": "ml" },
+      "ph": { "value": 7.0 },
+      "hardness": { "value": 60, "unit": "mg/L" },
+      "energy": { "value": 0, "unit": "kcal" },
+      "protein": { "value": 0, "unit": "g" },
+      "fat": { "value": 0, "unit": "g" },
+      "carbohydrate": { "value": 0, "unit": "g" },
+      "na": { "value": 1.16, "unit": "mg" },
+      "ca": { "value": 1.15, "unit": "mg" },
+      "mg": { "value": 0.80, "unit": "mg" },
+      "k": { "value": 0.62, "unit": "mg" },
+      "updated": "2017/03/24",
+      "company_tel": "0120-595955",
+      "price": 20,
+      "url": "http://www.volvic.co.jp"
+    },
+    {
+      "id": 8,
+      "name": "リカルデント グレープミントガム ボトルR",
+      "company": "モンデリーズ・ジャパン株式会社",
+      "company_address": "東京都品川区東品川4-12-8",
+      "price": 772,
+      "price_company": "LAWSON",
+      "updated": "2017/03/24",
+      "url": "https://www.recaldent-gum.com",
+      "volume": { "value": 140, "unit": "g" },
+      "per": { "value": 10.4, "unit": "g", "remark": "8粒" },
+      "energy": { "value": 18.6, "unit": "kcal" },
+      "protein": { "value": 0.06, "unit": "g" },
+      "na": { "value": 4.4, "unit": "g" },
+      "fat": { "value": 0, "unit": "g" },
+      "carbohydrate": { "value": 7.3, "unit": "g" },
+      "saccharide": { "value": 0, "unit": "g" },
+      "xylitol": { "value": 0.3, "unit": "g" },
+      "ca": { "value": 9.8, "unit": "mg", "remark": "関与成分CPP-ACP(Caとして)" }
+    },
+    {
+      "id": 7,
+      "company": "日本クッカリー株式会社",
+      "company_tel": "0120-865513",
+      "company_address": "神奈川県厚木市上依知3023",
+      "company_factory": "厚木工場",
+      "name": "おすすめ幕の内",
+      "price": 399,
+      "price_company": "LAWSON",
+      "updated": "2017/03/24",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1294806_1996.html",
+      "energy": { "value": 591, "unit": "kcal" },
+      "protein": { "value": 16.9, "unit": "g" },
+      "fat": { "value": 17.2, "unit": "g" },
+      "carbohydrate": { "value": 92.3, "unit": "g" },
+      "na": { "value": 1.1, "unit": "g" }
+    },
+    {
+      "id": 6,
+      "company": "キューピー株式会社",
+      "name": "焙煎胡麻ドレッシング",
+      "price": 31,
+      "price_company": "LAWSON",
+      "updated": "2017/03/24",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1287301_1996.html",
+      "volume": { "value": 22, "unit": "ml" },
+      "per": { "value": 22, "unit": "ml" },
+      "energy": { "value": 100, "unit": "kcal" },
+      "protein": { "value": 0.5, "unit": "g" },
+      "fat": { "value": 9.4, "unit": "g" },
+      "carbohydrate": { "value": 3.1, "unit": "g" },
+      "na": { "value": 242, "unit": "mg" }
+    },
+    {
+      "id": 5,
+      "company": "LAWSON",
+      "name": "シャキッと！コーンを使ったコーンサラダ",
+      "price": 148,
+      "price_company": "LAWSON",
+      "updated": "2017/03/24",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1287294_1996.html",
+      "energy": { "value": 40, "unit": "kcal" },
+      "protein": { "value": 1.8, "unit": "g" },
+      "fat": { "value": 0.6, "unit": "g" },
+      "saccharide": { "value": 5.6, "unit": "g" },
+      "dietary_fiber": { "value": 2.3, "unit": "g" },
+      "na": { "value": 110, "unit": "mg" }
+    },
+    {
       "id": 4,
       "company": "LAWSON",
       "name": "胡麻さけおにぎり",
@@ -8,26 +98,11 @@
       "price_company": "LAWSON",
       "updated": "2017/03/23",
       "url": "http://www.lawson.co.jp/recommend/original/detail/1287132_1996.html",
-      "energy": {
-        "value": 186,
-        "unit": "kcal"
-      },
-      "protein": {
-        "value": 4.0,
-        "unit": "g"
-      },
-      "fat": {
-        "value": 2.4,
-        "unit": "g"
-      },
-      "carbohydrate": {
-        "value": 37.1,
-        "unit": "g"
-      },
-      "na": {
-        "value": 450,
-        "unit": "mg"
-      }
+      "energy": { "value": 186, "unit": "kcal" },
+      "protein": { "value": 4, "unit": "g" },
+      "fat": { "value": 2.4, "unit": "g" },
+      "carbohydrate": { "value": 37.1, "unit": "g" },
+      "na": { "value": 450, "unit": "mg" }
     },
     {
       "id": 3,
@@ -37,26 +112,11 @@
       "price_company": "LAWSON",
       "updated": "2017/03/23",
       "url": "http://www.lawson.co.jp/recommend/original/detail/1287134_1996.html",
-      "energy": {
-        "value": 176,
-        "unit": "kcal"
-      },
-      "protein": {
-        "value": 3.3,
-        "unit": "g"
-      },
-      "fat": {
-        "value": 0.9,
-        "unit": "g"
-      },
-      "carbohydrate": {
-        "value": 38.7,
-        "unit": "g"
-      },
-      "na": {
-        "value": 980,
-        "unit": "mg"
-      }
+      "energy": { "value": 176, "unit": "kcal" },
+      "protein": { "value": 3.3, "unit": "g" },
+      "fat": { "value": 0.9, "unit": "g" },
+      "carbohydrate": { "value": 38.7, "unit": "g" },
+      "na": { "value": 980, "unit": "mg" }
     },
     {
       "id": 2,
@@ -66,10 +126,7 @@
       "price_company": "LAWSON",
       "updated": "2017/03/23",
       "url": "http://www.lawson.co.jp/recommend/original/detail/1287399_1996.html",
-      "energy": {
-        "value": 238,
-        "unit": "kcal"
-      }
+      "energy": { "value": 238, "unit": "kcal" }
     },
     {
       "id": 1,
@@ -78,62 +135,22 @@
       "price": 108,
       "price_company": "LAWSON",
       "updated": "2017/03/23",
-      "energy": {
-        "value": 0,
-        "unit": "kcal"
-      },
-      "volume": {
-        "value": 550,
-        "unit": "ml"
-      },
-      "protein": {
-        "value": 0,
-        "unit": "g"
-      },
-      "fat": {
-        "value": 0,
-        "unit": "g"
-      },
-      "carbohydrate": {
-        "value": 0,
-        "unit": "g"
-      },
-      "na": {
-        "value": {
-          "max": 1.0,
-          "min": 0.4
-        },
-        "unit": "mg"
-      },
-      "salt": {
-        "value": 0,
-        "unit": "g"
-      },
-      "ca": {
-        "value": {
-          "max": 1.5,
-          "min": 0.6
-        },
-        "unit": "mg"
-      },
-      "mg": {
-        "value": {
-          "min": 0.1,
-          "max": 0.3
-        },
-        "unit": "mg"
-      },
-      "k": {
-        "value": {
-          "min": 0.1,
-          "max": 0.5
-        },
-        "unit": "mg"
-      },
-      "per": {
-        "value": 100,
-        "unit": "ml"
-      }
+      "jan": "4901777216884",
+      "url": "http://products.suntory.co.jp/d/4901777216884/",
+      "energy": { "value": 0, "unit": "kcal" },
+      "volume": { "value": 550, "unit": "ml" },
+      "protein": { "value": 0, "unit": "g" },
+      "fat": { "value": 0, "unit": "g" },
+      "carbohydrate": { "value": 0, "unit": "g" },
+      "na": { "value": { "max": 1.0, "min": 0.4 }, "unit": "mg" },
+      "salt": { "value": 0, "unit": "g" },
+      "ca": { "value": { "max": 1.5, "min": 0.6 }, "unit": "mg" },
+      "mg": { "value": { "min": 0.1, "max": 0.3 }, "unit": "mg" },
+      "k": { "value": { "min": 0.1, "max": 0.5 }, "unit": "mg" },
+      "p": { "value": 1, "unit": "mg", "under": true },
+      "hardness": { "value": 30, "unit": "mg", "about": true },
+      "ph": { "value": 7, "about": true },
+      "per": { "value": 100, "unit": "ml" }
     }
   ]
 }
