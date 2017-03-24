@@ -35,7 +35,7 @@ toString = (item) ->
     text += "#{item.unit}" if item.unit?
     text += "未満" if item.under?
     text += " (#{item.remark})" if item.remark?
-    return
+    return text
   else if typeof item.value is 'object' and item.value.max? and item.value.min?
     text = "#{item.value.min}〜#{item.value.max}"
     text = "約" + text if item.about?
