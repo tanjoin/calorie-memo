@@ -1,6 +1,42 @@
 {
   "templates": [
     {
+      "id": 15,
+      "company": "日本クッカリー",
+      "company_tel": "0120-865513",
+      "company_address": "神奈川県厚木市上依知3023",
+      "company_factory": "厚木工場",
+      "name": "胡麻さけおにぎり",
+      "price": 110,
+      "price_company": "LAWSON",
+      "barcode": "2309961411176",
+      "updated": "2017/04/04",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1287132_1996.html",
+      "energy": { "value": 186, "unit": "kcal" },
+      "protein": { "value": 4.0, "unit": "g" },
+      "fat": { "value": 2.4, "unit": "g" },
+      "carbohydrate": { "value": 37.1, "unit": "g" },
+      "na": { "value": 450, "unit": "mg" }
+    },
+    {
+      "id": 14,
+      "company": "日本クッカリー",
+      "company_tel": "0120-865513",
+      "company_address": "神奈川県厚木市上依知3023",
+      "company_factory": "厚木工場",
+      "name": "わかめごはんおにぎり",
+      "price": 110,
+      "price_company": "LAWSON",
+      "barcode": "2304017612132",
+      "updated": "2017/04/04",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1287131_1996.html",
+      "energy": { "value": 169, "unit": "kcal" },
+      "protein": { "value": 2.8, "unit": "g" },
+      "fat": { "value": 1.1, "unit": "g" },
+      "carbohydrate": { "value": 37.1, "unit": "g" },
+      "na": { "value": 570, "unit": "mg" }
+    },
+    {
       "id": 13,
       "name": "ミックスサンド",
       "name_id": "04",
