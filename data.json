@@ -1,6 +1,24 @@
 {
   "templates": [
     {
+      "id": 17,
+      "company": "日本クッカリー",
+      "company_tel": "0120-865513",
+      "company_address": "東京都品川区東五反田2-20-4",
+      "name": "玉ねぎサラダ",
+      "price": 148,
+      "price_company": "LAWSON",
+      "barcode": "4903423094471",
+      "updated": "2017/04/06",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1287297_1996.html",
+      "energy": { "value": 20, "unit": "kcal" },
+      "protein": { "value": 1.5, "unit": "g" },
+      "fat": { "value": 0.1, "unit": "g" },
+      "saccharide": { "value": 2.4, "unit": "g" },
+      "dietary_fiber": { "value": 1.9, "unit": "g" },
+      "na": { "value": 30, "unit": "mg" }
+    },
+    {
       "id": 16,
       "company": "フレッシュダイナー",
       "company_tel": "0120-106-118",
