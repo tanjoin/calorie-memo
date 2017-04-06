@@ -1,6 +1,24 @@
 {
   "templates": [
     {
+      "id": 18,
+      "company": "イオン",
+      "company_tel": "0120-28-4396",
+      "company_address": "千葉県千葉市美浜区中瀬1-5-1",
+      "name": "ごまドレッシング",
+      "barcode": "4902121287369",
+      "updated": "2017/04/06",
+      "energy": { "value": 55, "unit": "kcal" },
+      "protein": { "value": 0.4, "unit": "g" },
+      "fat": { "value": 5.2, "unit": "g" },
+      "saccharide": { "value": 1.6, "unit": "g" },
+      "dietary_fiber": { "value": 0.2, "unit": "g" },
+      "na": { "value": 171, "unit": "mg" },
+      "salt": { "value": 0.4, "unit": "g" },
+      "per": { "value": 15, "unit": "g" },
+      "volume": { "value": 380, "unit": "ml" },
+    },
+    {
       "id": 17,
       "company": "日本クッカリー",
       "company_tel": "0120-865513",
