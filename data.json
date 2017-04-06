@@ -16,7 +16,7 @@
       "na": { "value": 171, "unit": "mg" },
       "salt": { "value": 0.4, "unit": "g" },
       "per": { "value": 15, "unit": "g" },
-      "volume": { "value": 380, "unit": "ml" },
+      "volume": { "value": 380, "unit": "ml" }
     },
     {
       "id": 17,
