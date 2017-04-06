@@ -1,6 +1,23 @@
 {
   "templates": [
     {
+      "id": 16,
+      "company": "フレッシュダイナー",
+      "company_tel": "0120-106-118",
+      "company_address": "千葉県船橋市高瀬町7-9",
+      "name": "氷温®熟成豚のネギ塩カルビ弁当(麦飯)",
+      "price": 399,
+      "price_company": "LAWSON",
+      "barcode": "2321067416930",
+      "updated": "2017/04/06",
+      "url": "https://www.lawson.co.jp/recommend/original/detail/1291271_1996.html",
+      "energy": { "value": 573, "unit": "kcal" },
+      "protein": { "value": 17.6, "unit": "g" },
+      "fat": { "value": 18.2, "unit": "g" },
+      "carbohydrate": { "value": 84.9, "unit": "g" },
+      "na": { "value": 790, "unit": "mg" },
+      "remark": "※氷温は登録商標です。"
+    {
       "id": 15,
       "company": "日本クッカリー",
       "company_tel": "0120-865513",
