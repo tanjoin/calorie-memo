@@ -1,6 +1,25 @@
 {
   "templates": [
     {
+      "id": 19,
+      "company": "ヤマザキビスケット",
+      "company_tel": "0120-945-522",
+      "company_address": "東京都新宿区西新宿1-26-2",
+      "name": "チップスター S （うすしお味）",
+      "volume": { "value": 50, "unit" : "g" },
+      "price": 117,
+      "price_company": "LAWSON",
+      "barcode": "4903015522658",
+      "updated": "2017/04/07",
+      "url": "http://www.yamazaki-biscuits.co.jp/products_nb/products_snack_nb/",
+      "energy": { "value": 266, "unit": "kcal" },
+      "protein": { "value": 3.2, "unit": "g" },
+      "fat": { "value": 15.5, "unit": "g" },
+      "carbohydrate": { "value": 28.5, "unit": "g" },
+      "salt": { "value": 0.5, "unit": "g" },
+      "per": { "value": 50, "unit": "g" }
+    },
+    {
       "id": 18,
       "company": "イオン",
       "company_tel": "0120-28-4396",
