@@ -15,8 +15,8 @@
       "fat": { "value": 25.6, "unit": "g" },
       "carbohydrate": { "value": 17.1, "unit": "g" },
       "na": { "value": 1.086, "unit": "mg" },
-      "remark": "1包装当たり（4個）",
-    }
+      "remark": "1包装当たり（4個）"
+    },
     {
       "id": 22,
       "name": "ちくわ",
