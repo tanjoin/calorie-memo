@@ -1,6 +1,23 @@
 {
   "templates": [
     {
+      "id": 23,
+      "name": "鶏から 焦がしねぎ 4個",
+      "company": "LAWSON",
+      "company_tel": "03-3400-9490",
+      "company_shop": "青山骨董通店",
+      "company_address": "東京都港区南青山5-4-35",
+      "price": 200,
+      "price_company": "LAWSON",
+      "jan": "4903423432846",
+      "energy": { "value": 362, "unit": "kcal" },
+      "protein": { "value": 15.8, "unit": "g" },
+      "fat": { "value": 25.6, "unit": "g" },
+      "carbohydrate": { "value": 17.1, "unit": "g" },
+      "na": { "value": 1.086, "unit": "mg" },
+      "remark": "1包装当たり（4個）",
+    }
+    {
       "id": 22,
       "name": "ちくわ",
       "energy": { "value": 167, "unit": "kcal" },
