@@ -1,6 +1,43 @@
 {
   "templates": [
     {
+      "id": 25,
+      "name": "明治ブルガリアのむヨーグルト LB81 プレーン",
+      "updated": "2017/04/24",
+      "volume": { "value": 450, "unit": "g" },
+      "energy": { "value": 67, "unit": "kcal" },
+      "protein": { "value": 3.1, "unit": "g" },
+      "fat": { "value": 0.5, "unit": "g" },
+      "carbohydrate": { "value": 12.5, "unit": "g" },
+      "na": { "value": 41, "unit": "mg" },
+      "ca": { "value": 116, "unit": "mg" },
+      "per": { "value": 100, "unit": "ml" },
+      "saccharide": { "value": 12.4, "unit": "g" },
+      "remark": "100mlは106gに相当します",
+      "url": "http://www.meiji.co.jp/",
+      "jan": "4902705124530",
+      "company": "明治",
+      "company_address": "東京都江東区新砂1-2-10"
+    },
+    {
+      "id": 24,
+      "name": "シャキシャキレタスハム",
+      "name_id": "04",
+      "company": "サンデリカ",
+      "company_office": "町田事業所",
+      "company_address": "東京都町田3丁目39番1号",
+      "company_tel": "0120-501-347",
+      "barcode": "2318744169739",
+      "price": 248,
+      "price_company": "LAWSON",
+      "updated": "2017/04/24",
+      "energy": { "value": 190, "unit": "kcal" },
+      "protein": { "value": 8.5, "unit": "g" },
+      "fat": { "value": 7.8, "unit": "g" },
+      "carbohydrate": { "value": 20.7, "unit": "g" },
+      "na": { "value": 710, "unit": "mg" }
+    },
+    {
       "id": 23,
       "name": "鶏から 焦がしねぎ 4個",
       "company": "LAWSON",
