@@ -35,7 +35,7 @@ didSearchInputTextChanged = ->
   if input.value.length > 0
     list = calorieData.filter (element, index, array) ->
       return element.name.indexOf(input.value) isnt -1 or
-        element.company.indexOf(input.value) isnt -1
+        (element.company and element.company.indexOf(input.value) isnt -1)
   for d in list
     resultDiv.appendChild view.makeHtml d
   return
