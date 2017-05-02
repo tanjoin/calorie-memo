@@ -1,6 +1,23 @@
 {
   "templates": [
     {
+      "id": 29,
+      "company": "日本クッカリー",
+      "company_tel": "0120-865513",
+      "company_address": "東京都品川区東五反田2-20-4",
+      "name": "おにぎり 手巻きシーチキンマヨネーズ",
+      "price": 110,
+      "price_company": "ローソン",
+      "barcode": "2321978106371",
+      "updated": "2017/05/02",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1296929_1996.html",
+      "energy": { "value": 202, "unit": "kcal" },
+      "protein": { "value": 4.0, "unit": "g" },
+      "fat": { "value": 4.7, "unit": "g" },
+      "carbohydrate": { "value": 35.8, "unit": "g" },
+      "na": { "value": 450, "unit": "mg" }
+    },
+    {
       "id": 28,
       "name": "シューコッペダブルミルク",
       "updated": "2017/04/27",
