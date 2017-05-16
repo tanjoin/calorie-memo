@@ -1,6 +1,24 @@
 {
   "templates": [
     {
+      "id": 30,
+      "company": "日本クッカリー",
+      "company_tel": "0120-865513",
+      "company_address": "神奈川県厚木市上依知3023",
+      "company_factory": "厚木工場",
+      "name": "鶏五目おにぎり",
+      "price": 120,
+      "price_company": "ローソン",
+      "barcode": "2312353946699",
+      "updated": "2017/05/16",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1287136_1996.html",
+      "energy": { "value": 186, "unit": "kcal" },
+      "protein": { "value": 5.1, "unit": "g" },
+      "fat": { "value": 1.3, "unit": "g" },
+      "carbohydrate": { "value": 36.0, "unit": "g" },
+      "na": { "value": 570, "unit": "mg" }
+    },
+    {
       "id": 29,
       "company": "日本クッカリー",
       "company_tel": "0120-865513",
