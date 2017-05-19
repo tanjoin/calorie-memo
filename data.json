@@ -1,6 +1,26 @@
 {
   "templates": [
     {
+      "id": 32,
+      "company": "なとり",
+      "company_address": "東京都北区王子5-5-1",
+      "company_tel": "0120-07-3963",
+      "name": "ビーフジャーキー",
+      "price": 409,
+      "price_company": "ローソン",
+      "barcode": "4902181085394",
+      "updated": "2017/05/19",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1286683_1996.html",
+      "volume": { "value": 50, "unit": "g" },
+      "energy": { "value": 123, "unit": "kcal" },
+      "protein": { "value": 19.6, "unit": "g" },
+      "fat": { "value": 2.6, "unit": "g" },
+      "carbohydrate": { "value": 5.4, "unit": "g" },
+      "na": { "value": 799, "unit": "mg" },
+      "salt": { "value": 2.0, "unit": "g" },
+      "remark": "[company_tel]はローソンカスタマーセンター"
+    },
+    {
       "id": 31,
       "company": "ローソン",
       "name": "からあげクンレッド",
@@ -489,7 +509,7 @@
       "company": "サンデリカ",
       "company_office": "町田事業所",
       "company_address": "東京都町田3丁目39番1号",
-      "company_tel": "0120-501-347",      
+      "company_tel": "0120-501-347",
       "name": "梅と鰹のごはんおにぎり",
       "price": 120,
       "price_company": "ローソン",
