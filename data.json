@@ -1,6 +1,23 @@
 {
   "templates": [
     {
+      "id": 34,
+      "name": "玉子と蒸し鶏の彩り野菜サラダ",
+      "company": "日本クッカリー",
+      "company_tel": "0120-111-3173",
+      "company_address": "千葉県八千代市上高野1795-5",
+      "company_factory": "八千代工場",
+      "price": 248,
+      "price_company": "ローソン",
+      "updated": "2017/05/22",
+      "energy": { "value": 74, "unit": "kcal" },
+      "protein": { "value": 9.7, "unit": "g" },
+      "fat": { "value": 2.5, "unit": "g" },
+      "saccharide": { "value": 2.2, "unit": "g" },
+      "dietary_fiber": { "value": 1.7, "unit": "g" },
+      "na": { "value": 180, "unit": "mg" }
+    },
+    {
       "id": 33,
       "name": "お～いお茶 濃い茶",
       "company": "伊藤園",
