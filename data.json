@@ -1,6 +1,27 @@
 {
   "templates": [
     {
+      "id": 35,
+      "name": "十六茶",
+      "company": "アサヒ飲料",
+      "company_tel": "0120-328-124",
+      "company_address": "東京都墨田区吾妻橋1-23-1",
+      "url": "http://www.asahiinryo.co.jp",
+      "updated": "2017/06/13",
+      "volume": { "value": 430, "unit": "ml" },
+      "per": { "value": 100, "unit": "ml" },
+      "energy": { "value": 0, "unit": "kcal" },
+      "protein": { "value": 0, "unit": "g" },
+      "fat": { "value": 0, "unit": "g" },
+      "carbohydrate": { "value": 0, "unit": "g" },
+      "salt": { "value": { "min": 0, "max": 0.04 }, "unit": "g" },
+      "k": { "value": { "min": 2.8, "max": 6.5 }, "unit": "mg" },
+      "ca": { "value": { "min": 0.1, "max": 0.7 }, "unit": "mg" },
+      "mg": { "value": { "min": 0.1, "max": 0.5 }, "unit": "mg" },
+      "mn": { "value": { "min": 0.0006, "max": 0.0086 }, "unit": "mg" },
+      "caffeine": { "value": 0, "unit": "mg" }
+    },
+    {
       "id": 34,
       "name": "玉子と蒸し鶏の彩り野菜サラダ",
       "company": "日本クッカリー",
