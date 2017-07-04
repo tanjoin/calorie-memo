@@ -1,6 +1,38 @@
 {
   "templates": [
     {
+      "id": 38,
+      "name": "Lチキ 旨塩チキン",
+      "url": "https://www.lawson.co.jp/recommend/original/detail/1303927_1996.html",
+      "price": 150,
+      "price_company": "LAWSON",
+      "updated": "2017/07/04",
+      "energy": {
+        "value": 320,
+        "unit": "kcal"
+      },
+      "protein": {
+        "value": 12.9,
+        "unit": "g"
+      },
+      "fat": {
+        "value": 23,
+        "unit": "g"
+      },
+      "carbohydrate": {
+        "value": 15.3,
+        "unit": "g"
+      },
+      "na": {
+        "value": 957,
+        "unit": "mg"
+      },
+      "salt": {
+        "value": 2.4,
+        "unit": "g"
+      }
+    },
+    {
       "id": 37,
       "name": "お好み俵おむすびセット",
       "company": "トオカツフーズ",
