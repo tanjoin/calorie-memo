@@ -10,7 +10,7 @@
         "unit": "kcal"
       },
       "protein": {
-        "value": 10.0,
+        "value": 10,
         "unit": "g"
       },
       "fat": {
@@ -48,7 +48,7 @@
         "unit": "μg"
       },
       "niacin": {
-        "value": 8.0,
+        "value": 8,
         "unit": "mg"
       },
       "fｏｌａｔｅ": {
