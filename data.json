@@ -44,7 +44,7 @@
         "value": {
           "max": 2.4,
           "min": 0.8
-        }
+        },
         "unit": "μg"
       },
       "niacin": {
