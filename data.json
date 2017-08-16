@@ -1,6 +1,79 @@
 {
   "templates": [
     {
+      "id": 39,
+      "name": "inバー プロテイン ウェファーバニラ",
+      "url": "http://www.weider-jp.com/bar/vanilla.html",
+      "updated": "2017/08/16",
+      "energy": {
+        "value": 186,
+        "unit": "kcal"
+      },
+      "protein": {
+        "value": 10.0,
+        "unit": "g"
+      },
+      "fat": {
+        "value": 9.9,
+        "unit": "g"
+      },
+      "carbohydrate": {
+        "value": 14.8,
+        "unit": "g"
+      },
+      "na": {
+        "value": 106,
+        "unit": "mg"
+      },
+      "b1": {
+        "value": {
+          "max": 0.83,
+          "min": 0.29
+        }
+        "unit": "mg"
+      },
+      "b2": {
+        "value": 0.53,
+        "unit": "mg"
+      },
+      "b6": {
+        "value": 0.55,
+        "unit": "mg"
+      },
+      "b12": {
+        "value": {
+          "max": 2.4,
+          "min": 0.8
+        }
+        "unit": "μg"
+      },
+      "niacin": {
+        "value": 8.0,
+        "unit": "mg"
+      },
+      "fｏｌａｔｅ": {
+        "value": {
+          "max": 240,
+          "min": 80
+        },
+        "unit": "μg"
+      },
+      "pantothenic": {
+        "value": 2.5,
+        "unit": "mg"
+      },
+      "p": {
+        "value": 82,
+        "unit": "mg",
+        "remark": "参考値"
+      },
+      "k": {
+        "value": 80,
+        "unit": "mg",
+        "remark": "参考値"
+      }
+    },
+    {
       "id": 38,
       "name": "Lチキ 旨塩チキン",
       "url": "https://www.lawson.co.jp/recommend/original/detail/1303927_1996.html",
