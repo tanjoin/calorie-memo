@@ -718,9 +718,15 @@
       "name": "からあげクン",
       "price": 216,
       "price_company": "ローソン",
-      "updated": "2017/03/23",
-      "url": "http://www.lawson.co.jp/recommend/original/detail/1287399_1996.html",
-      "energy": { "value": 238, "unit": "kcal" }
+      "updated": "2017/09/04",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1303712_1996.html",
+      "energy": { "value": 238, "unit": "kcal" },
+      "protein": { "value": 14.2, "unit": "g" },
+      "fat": { "value": 14.2, "unit": "g" },
+      "saccharide": { "value" : 7.9, "unit": "g" },
+      "carbohydrate": { "value": 9.3, "unit": "g" },
+      "na": { "value" : 645, "unit": "mg" },
+      "salt": { "value": 1.6, "unit": "g" }
     },
     {
       "id": 1,
