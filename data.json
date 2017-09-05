@@ -76,12 +76,12 @@
     {
       "id": 38,
       "name": "Lチキ 旨塩チキン",
-      "url": "https://www.lawson.co.jp/recommend/original/detail/1303927_1996.html",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1303927_1996.html",
       "price": 150,
       "price_company": "LAWSON",
-      "updated": "2017/07/04",
+      "updated": "2017/09/05",
       "energy": {
-        "value": 320,
+        "value": 269,
         "unit": "kcal"
       },
       "protein": {
