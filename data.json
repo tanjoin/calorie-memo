@@ -1,6 +1,37 @@
 {
   "templates": [
     {
+      "id": 40,
+      "name": "スパイシーなビーフジャーキー",
+      "url": "",
+      "updated": "2017/10/24",
+      "price_company": "FamilyMart",
+      "volume": {
+        "value": 12,
+        "unit": "g"
+      },
+      "energy": {
+        "value": 34,
+        "unit": "kcal"
+      },
+      "protein": {
+        "value": 5.0,
+        "unit": "g"
+      },
+      "fat": {
+        "value": 0.9,
+        "unit": "g"
+      },
+      "carbohydrate": {
+        "value": 1.5,
+        "unit": "g"
+      },
+      "na": {
+        "value": 292,
+        "unit": "mg"
+      }
+    },
+    {
       "id": 39,
       "name": "inバー プロテイン ウェファーバニラ",
       "url": "http://www.weider-jp.com/bar/vanilla.html",
