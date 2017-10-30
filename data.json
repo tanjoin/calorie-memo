@@ -1,6 +1,40 @@
 {
   "templates": [
     {
+      "id": 42,
+      "company": "グルメデリカ",
+      "company_tel": "0120-574-158",
+      "company_address": "埼玉県所沢市下富739-12",
+      "company_factory": "所沢工場",
+      "name": "もち麦入り梅しそごはんおにぎり",
+      "price": 120,
+      "price_company": "ローソン",
+      "updated": "2017/10/30",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1303356_1996.html",
+      "energy": { "value": 184, "unit": "kcal" },
+      "protein": { "value": 3.5, "unit": "g" },
+      "fat": { "value": 0.9, "unit": "g" },
+      "carbohydrate": { "value": 40.5, "unit": "g" },
+      "na": { "value": 1.0, "unit": "g" }
+    },
+    {
+      "id": 41,
+      "company": "日本クッカリー",
+      "company_tel": "0120-865513",
+      "company_address": "神奈川県厚木市上依知3023",
+      "company_factory": "厚木工場",
+      "name": "もち麦入り胡麻さけおにぎり",
+      "price": 110,
+      "price_company": "ローソン",
+      "updated": "2017/10/30",
+      "url": "http://www.lawson.co.jp/recommend/original/detail/1303355_1996.html",
+      "energy": { "value": 198, "unit": "kcal" },
+      "protein": { "value": 4.3, "unit": "g" },
+      "fat": { "value": 3.2, "unit": "g" },
+      "carbohydrate": { "value": 37.9, "unit": "g" },
+      "na": { "value": 460, "unit": "mg" }
+    },
+    {
       "id": 40,
       "name": "スパイシーなビーフジャーキー",
       "url": "http://www.family.co.jp/goods/snack/5017836.html",
