@@ -9,7 +9,7 @@ exports.calcCarbohydrate = (saccharide, dietary_fiber) ->
 
 exports.getDetails = (content, isShowEnergy = true, isShowVolume = true) ->
   details = ""
-  details += "ID #{content.id}\nhttps://tanjo.in/calorie-memo/?id=#{content.id}\n" if content.id?
+  details += "ID #{content.id}\nhttps://tanjoin.github.io/calorie-memo/?id=#{content.id}\n" if content.id?
   details += "#{toString(content.energy)}\n" if content.energy? and isShowEnergy
   details += "たんぱく質 #{toString(content.protein)}\n" if content.protein?
   details += "脂質 #{toString(content.fat)}\n" if content.fat?
